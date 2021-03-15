@@ -5,12 +5,15 @@ paginate: 100 # it will paginate after this number
 language: 'ko'
 words_per_minute: 200
 
+
+url: https://hyeonjun414.github.io
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+baseurl: /
+
 
 # Website info
 title: DevJang
-description: 게임을 하자, 게임을 만들자.
+description: 게임을 하자, 게임을 만들자
 cover: assets/images/blog-cover.jpg
 logo: assets/images/Unity.png
 logo_dark: assets/images/Unity.png
@@ -22,8 +25,8 @@ navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: # replace by your username
-facebook: # replace by your username
+twitter:  # replace by your username
+facebook:  # replace by your username
 
 # Disqus
 disqus: False
@@ -70,7 +73,7 @@ lsi: False
 username: hyeonjun414
 repo: hyeonjun414.github.io
 branch: master
-relative_source: ../jasper2/
+relative_source: 
 destination: ./output/
 production_url:  https://hyeonjun414.github.io
 source_url:  https://github.com/hyeonjun414/hyeonjun414.github.io/
