@@ -1,32 +1,16 @@
-# OS X
-.DS_Store
+# hidden files
+.*
+!.github
 
-# Jekyll build
-/_site/
-.jekyll-metadata
-#Gemfile.lock
-
-# webstorm
-.idea/
-
-# others
-*.swp
-package-lock.json
-
-# site build
-*.gem
-*.rbc
-.bundle
-.config
-coverage
-InstalledFiles
-lib/bundler/man
-pkg
-rdoc
-spec/reports
-test/tmp
-test/version_tmp
-tmp
+# jekyll cache
+_site
 vendor
-Gemfile.lock
+
+# rubygem
+*.gem
+# yard docs
+doc
+
+# npm dependencies
 node_modules
+package-lock.json
