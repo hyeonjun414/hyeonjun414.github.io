@@ -78,11 +78,12 @@ body {
 }
 
 .page__lead {
-  font-family: $global-font-family;
+  font-family: $good;
   font-size: $type-size-4;
 }
 
 .page__content {
+  margin-top: 2em;
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
@@ -136,13 +137,13 @@ body {
 
   dt {
     margin-top: 1em;
-    font-family: $sans-serif;
+    font-family: $good;
     font-weight: bold;
   }
 
   dd {
     margin-left: 1em;
-    font-family: $sans-serif;
+    font-family: $good;
     font-size: $type-size-6;
   }
 
@@ -227,7 +228,7 @@ body {
   margin: 0 auto;
   padding: 2px 5px;
   color: #fff;
-  font-family: $caption-font-family;
+  font-family: $good;
   font-size: $type-size-7;
   background: #000;
   text-align: right;
@@ -281,7 +282,7 @@ body {
 .page__meta {
   margin-top: 2em;
   color: $muted-text-color;
-  font-family: $sans-serif;
+  font-family: $good;
   font-size: $type-size-6;
 
   p {
@@ -316,6 +317,7 @@ body {
 
   strong {
     margin-right: 10px;
+    font-size: 1em;
   }
 }
 

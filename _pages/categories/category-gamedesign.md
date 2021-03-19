@@ -7,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.gamedesign %}
+{% assign posts = site.categories['Game Design'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
