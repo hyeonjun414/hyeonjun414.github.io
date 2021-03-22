@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   color: $text-color;
-  font-family: $good;
+  font-family: $global-font-family;
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -29,7 +29,7 @@ h5,
 h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: $good;
+  font-family: $header-font-family;
   font-weight: bold;
 }
 
@@ -126,6 +126,8 @@ blockquote {
 /* links */
 
 a {
+  /* devinlife : a link 하이퍼링크 밑줄 없애기 */
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
@@ -153,7 +155,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: $good;
+  font-family: $monospace;
 }
 
 pre {
@@ -264,7 +266,7 @@ figure {
 figcaption {
   margin-bottom: 0.5em;
   color: $muted-text-color;
-  font-family: $good;
+  font-family: $caption-font-family;
   font-size: $type-size-6;
 
   a {
