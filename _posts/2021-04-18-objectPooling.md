@@ -1,5 +1,5 @@
 ---
-title: "Game : 오브젝트 풀링
+title: "Game : 오브젝트 풀링"
 excerpt: "유니티에서의 메모리 관리"
 toc: true
 toc_sticky: true
