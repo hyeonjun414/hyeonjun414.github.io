@@ -7,7 +7,7 @@ toc_label: "목차"
 categories:
   - Game
 tags:
-  - [Unity, Design, 최적화]
+  - [Unity, Design]
 date: 2021-04-18
 breadcrumb: true
 ---
