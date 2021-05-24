@@ -340,7 +340,7 @@ body {
   padding: 5px 10px;
   text-decoration: none;
   color: #fff;
-  background-color: mix(#255, $primary-color, 95%);
+  background-color: mix(rgb(255, 255, 255), $primary-color, 40%);
   border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
 
