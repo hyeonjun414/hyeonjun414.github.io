@@ -47,7 +47,7 @@
                 {% endfor %}
                 {% for category in site.categories %}
                     {% if category[0] == "Direct3D" %}
-                        <li><a href="/categories/winapi" class="">Direct 3D ({{category[1].size}})</a></li>
+                        <li><a href="/categories/direct3d" class="">Direct 3D ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
