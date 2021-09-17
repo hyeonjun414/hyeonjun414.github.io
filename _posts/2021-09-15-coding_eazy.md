@@ -106,3 +106,42 @@ int solution(int left, int right) {
     return answer;
 }
 ```
+
+## 부족한 금액 계산하기(Lv.1)
+
+### 문제
+
+[코딩테스트 연습 - 1주차_부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612)
+
+### 풀이
+
+비용(price)에 사용 횟수(count)를 곱한 값을 0 ~ count까지 더하여 총액을 구하고 마지막에 소지금(money)와 비교하여 소지금이 모자라면 차액을 아니면 0을 제출한다.
+
+### 코드
+
+```cpp
+#include <string>
+#include <vector>
+#include <iostream>
+
+using namespace std;
+int cal(int i)
+{
+    int cnt = 0;
+    for(int num=1; num<=i; num++)
+    {
+        if(i%num == 0)
+            cnt++;
+    }
+    return cnt%2 == 0 ? i : -i; 
+}
+
+int solution(int left, int right) {
+    int answer = 0;
+    for(int i = left; i <= right; i++)
+    {
+        answer += cal(i);
+    }
+    return answer;
+}
+```
